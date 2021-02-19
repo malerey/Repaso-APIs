@@ -78,29 +78,3 @@ Utilizando el template de `ejercicio NewsApi`, consumiendo los datos del endpoin
 #### Crear un paginado
 
 Agregar la variable globales que sean necesarias.Agregar el parametro `page` al endpoint,ej: `/top-headlines?country=ar&category=technology&page=1&pageSize=12&apiKey=${apiKey}`.Cuando se haga click en siguiente se debe avanzar una pagina, si esta en la ultima se debe deshabilitar.Por otro lado cuando se haga clien en anterior se debe retroceder una pagina,si esta en la primera pagina deberia se debe deshabilitar.Por
-
----
-
-### Ejercicio 8 - Alquileres
-
-_No cuenta con una resolucion completa_
-
-**[API](https://mockapi.io/clone/5fada5eb2ec98b001604891c)**
-
-Para utilizar la API hay que crearse una cuenta, y clonar el proyecto.
-
-#### Creando la tabla
-
-Utilizando el template de `ejercicio Alquileres`, consumiendo los datos del endpoint `/users` y usando de referencia la tabla del template crear una nueva tabla con los datos de la api.
-
-#### Agregar usuarios
-
-Cuando se haga click en el boton `agregar usuario` se debe abrir un modal. Luego de que el usuario lo complete y se haga click en guardar. Se debe usar endpoint `/users` con el metodo `POST` para guardar los datos. Una vez hecho esto se debe actualizar la tabla.
-
-#### Actualizar usuarios
-
-Cuando se haga click en el ícono `edicion` sobre la tabla se debe abrir un modal para editar el usuario. Se puede usar el mismo modal de antes. Se debe usar endpoint `/users` con el metodo `PUT` para editar el usuario. Una vez hecho esto se debe actualizar la tabla.
-
-#### Modificar usuarios
-
-Cuando se haga click en el icono `eliminar` sobre la tabla se debe abrir un modal para eliminar ese usuario. Se debe usar el endpoint `/users` con el método `DELETE` para eliminar el usuario. Una vez hecho esto se debe actualizar la tabla.
