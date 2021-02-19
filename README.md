@@ -5,7 +5,7 @@ Recomendaciones antes de empezar los ejercicios:
 - Leer la documentación de las API a utilizar. Analizar que información necesito y como accederla.
 - Reducir lo más posible las consultas a esta. Evitar hacer consultar repetidas o innecesaria.
 
-Cada ejercicio cuenta con una resolución, para que puedan verlos funcionando. Se indicara cuales no los posean.
+Cada ejercicio cuenta con una resolución, para que puedan verlos funcionando. No los consultes a menos que sea necesario!!
 
 ---
 
